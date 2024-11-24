@@ -1,0 +1,11 @@
+Arduino_HS300x -> capteur humidité
+arduino-core -> Pression 125Pa core libraries
+arduino i2c spd master -> Pression 125Pa
+DFRobot_LWLP-1 -> Pression 500Pa
+Honeywell_ABP -> Pression 7000Pa
+Arduino BMI270_BMM150 -> IMU
+
+Adresse de nos capteurs :
+Pression125 : 
+Pression500 :
+Pression7000 :
