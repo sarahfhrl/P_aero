@@ -4,7 +4,7 @@
 Pression500 capteurPression;  // Création de l'objet capteurHumidite
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   while (!Serial);
 
   if (!capteurPression.init()) {
