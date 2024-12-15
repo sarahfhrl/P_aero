@@ -15,6 +15,12 @@ bool Pression125::init(uint8_t address) {
     Wire.begin();
     capteur->begin(Wire, capteurAddress);
 
+    // Démarrer la mesure continue
+    uint16_t error = capteur->startContinuousMeasurementWithDiffPressureTCompAndAveraging();
+    if (error) {
+        return false;
+    }
+
     // Retourner true si l'objet est correctement initialisé
     return (capteur != nullptr);
 }
