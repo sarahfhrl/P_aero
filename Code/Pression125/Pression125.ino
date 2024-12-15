@@ -4,7 +4,7 @@
 Pression125 capteur;
 
 void setup() {
-    Serial.begin(9600);
+    Serial.begin(115200);
 
     // Initialiser le capteur avec son adresse I2C
     if (!capteur.init(0x25)) { // Remplacez 0x25 par l'adresse I2C réelle de votre capteur
