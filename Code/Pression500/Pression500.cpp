@@ -5,7 +5,15 @@ DFRobot_LWLP lwlp;
 Pression500::Pression500() {} // Constructeur vide
 
 bool Pression500::init() {
-    return lwlp.begin();
+    if (!lwlp.begin()) {
+        return false;
+    }
+
+    auto data = lwlp.getData();
+    if (data.temperature > 80 || data.presure > 599) {
+        return false;
+    }
+    return true;
 }
 
 float Pression500::lireTemperature() {
