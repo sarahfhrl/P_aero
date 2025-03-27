@@ -1,0 +1,14 @@
+Arduino_HS300x -> capteur humidité
+arduino-core -> Pression 125Pa core libraries
+arduino i2c spd master -> Pression 125Pa
+DFRobot_LWLP-1 -> Pression 500Pa
+Honeywell_ABP -> Pression 7000Pa
+Arduino BMI270_BMM150 -> IMU
+LPS22H -> Barometre arduino
+BLE -> Bluetooth
+
+PYTHON :
+Bleak et Tkinter
+
+Adresse arduino :
+0C:EB:7C:D1:DC:95
