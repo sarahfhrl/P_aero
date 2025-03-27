@@ -1,0 +1,12 @@
+Méthode d'utilisation:
+Brancher la batterie à l'arduino et à l'avion
+Démarrer le code python Bluetooth
+Mettre la carte SD dans l'arduino
+Attendre que le code se connecte à l'arduino
+Démarrer l'acquisition
+Arreter l'acquisition
+Récupérer la carte sd
+Récupérer le ficier DATA.TXT
+L'enregistrer en csv dans le même dossier que le code python Traitement_Donnees
+Une fois les données récupérer vous pouvez vider la carte SD
+
